@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
+</head>
+<!-- check for one age form the time input to the current time (date ) to get one age -->
+
+<body>
+
+    <div class="calc-container">
+        <h1>Age Calculator</h1>
+        <form action="#">
+            <div class="form-control">
+                <label for="bDate">Enter your date of birth:</label>
+                <input max="2024-09-01" type="date" name="birth-date" id="bDate">
+            </div>
+        </form>
+        <div class="output-text">
+            Your age is <span class="text-age">0</span> years old
+        </div>
+    </div>
+</body>
+
+</html>
